@@ -1,0 +1,29 @@
+{
+  "name": "libalipay",
+  "version": "0.1.0",
+  "description": "Alipay sdk for node",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maichong/libalipay.git"
+  },
+  "keywords": [
+    "alipay"
+  ],
+  "author": {
+    "name": "Liang",
+    "email": "liang@maichong.it",
+    "url": "https://github.com/liangxingchen"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maichong/libalipay/issues"
+  },
+  "homepage": "https://github.com/maichong/libalipay#readme",
+  "dependencies": {
+    "lodash": "*",
+    "request": "*"
+  }
+}
