@@ -21,7 +21,8 @@ function Alipay(config) {
     service: 'mobile.securitypay.pay',
     payment_type: '1',
     _input_charset: 'utf-8',
-    it_b_pay: '1d'
+    it_b_pay: '1d',
+    sign_type: 'RSA'
   }, config);
   if (config && config.rsa_private_key) {
     this.rsa_private_key = fs.readFileSync(config.rsa_private_key);
