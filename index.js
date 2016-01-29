@@ -62,6 +62,7 @@ Alipay.init = function (config) {
  * @returns {Promise}
  */
 Alipay.verify = function (notify_id) {
+  let config = this._config;
   return new Promise(function (resolve) {
     request('https://mapi.alipay.com/gateway.do?service=notify_verify&partner=' + config.partner + '&notify_id=' + notify_id, function (error, response, body) {
       resolve(body == 'true');
